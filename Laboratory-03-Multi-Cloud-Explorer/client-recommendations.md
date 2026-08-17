@@ -55,3 +55,18 @@ AWS is a suitable choice for a multinational e-commerce company that needs highl
 * Elastic Load Balancing – for distributing application traffic across resources.
 * Amazon EC2 Auto Scaling – for automatically adjusting compute capacity based on demand.
 
+
+# Multi-Cloud Decision Matrix
+
+| Scenario | Recommended Platform | Reason |
+|---|---|---|
+| Startup | Google Cloud Platform (GCP) | Suitable for scalable application infrastructure and growing workloads. |
+| Enterprise | Amazon Web Services (AWS) | Provides a broad range of cloud services and global infrastructure for enterprise workloads. |
+| Microsoft Environment | Microsoft Azure | Strong integration with Microsoft technologies and enterprise identity services. |
+| AI/ML | Google Cloud Platform (GCP) | Strong capabilities for artificial intelligence, machine learning, and data workloads. |
+| Kubernetes | Google Cloud Platform (GCP) | Google Kubernetes Engine (GKE) provides a managed Kubernetes environment. |
+| Global Web Application | Amazon Web Services (AWS) | Provides global infrastructure and services that support highly available and scalable applications. |
+
+## Decision Matrix Summary
+
+The decision matrix shows that the best cloud platform depends on the organization's specific requirements. AWS is a strong option for broad enterprise and globally distributed workloads, while Azure is particularly appropriate for organizations already using Microsoft technologies. GCP is a strong choice for AI/ML workloads and Kubernetes-based applications.
